@@ -1,3 +1,5 @@
+/* Good idea is to use versioning to force browser to obtain latest css, therefore it won't use saved one. */
+
 #navbar{
     background-image: linear-gradient(90deg, #000000,#1a1c1d);
     position: sticky;
@@ -77,9 +79,30 @@
     font-weight: 600;
 }
 
+.card-body {
+    height: auto;
+    display: flex; 
+    flex-direction: column; 
+} 
+
+.portrets {
+    width: 100%;
+    height: auto;
+    /* flex: 2;
+    flex-shrink: 2;
+    object-fit: cover; */
+}
+
 .card:hover{
     transform: scale(1.1);
     transition: 0.5s;
+}
+
+@media (pointer: coarse) {
+    .card:hover {
+        transform: none;
+        transition: none;
+    }
 }
 
 /* .person:hover{
@@ -184,7 +207,7 @@
 
 .contact-form button {
     background-color: #aba1a1;
-    border-color: #b64040;
+    border-color: #f1eded;
     color: white;
     cursor: pointer;
     font-size: 18px;
@@ -265,6 +288,10 @@
     /* transform: translateY(-5px); */
 }
 
+.fa-youtube:hover {
+    color: red;
+    transform: scale(1.2);
+}
 
 
 /* -- footer -- */
