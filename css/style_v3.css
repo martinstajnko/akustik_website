@@ -43,7 +43,7 @@
 
 #myCarousel{
     margin-top: 80px;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
 }
 
 .carousel-item img{
@@ -64,7 +64,7 @@
     font-weight: 500;
     color: #000000;
     margin-bottom: 20px;
-} 
+}
 
 
 /* about part of the page id="about" */
@@ -81,9 +81,9 @@
 
 .card-body {
     height: auto;
-    display: flex; 
-    flex-direction: column; 
-} 
+    display: flex;
+    flex-direction: column;
+}
 
 .portrets {
     width: 100%;
@@ -134,6 +134,15 @@
     height: 100%;
 }
 
+.photo-gallery {
+    background-image: linear-gradient(90deg, #0b0a0a,#161212);
+}
+
+.carousel-item img {
+    height: 500px; /* Replace with your desired height */
+    width: auto;
+}
+
 
 /* news */
 #news{
@@ -179,7 +188,7 @@
 #contact{
     padding-bottom: 50px;
     padding-top: 50px;
-    
+
 }
 
 .contact-form {
@@ -188,10 +197,10 @@
     padding: 20px;
     border-radius: 10px;
   }
-  
+
   /* .contact-form input, */
-.contact-form input[type=text], 
-.contact-form input[type=email], 
+.contact-form input[type=text],
+.contact-form input[type=email],
 .contact-form textarea {
     background-color: white;
     color: black;
@@ -236,7 +245,7 @@
 }
 
 .contact-left p i{
-    color: #0c0c0c; 
+    color: #0c0c0c;
     /* #29b9da */
     margin-right: 15px;
     font-size: 25px;
@@ -293,15 +302,25 @@
     transform: scale(1.2);
 }
 
+#back-to-top {
+    background-color: rgb(255, 140, 0);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+}
+
 
 /* -- footer -- */
 #copyright{
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: rgb(243, 238, 238);
+    /* background: rgb(243, 238, 238); */
+    background: rgb(155, 129, 88);
     font-weight: 300;
-    margin-top: 20px;
+    margin-top: 10px;
+
 }
 #copyright p a{
     font-size: 20px;
